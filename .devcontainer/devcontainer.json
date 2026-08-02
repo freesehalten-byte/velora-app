@@ -1,0 +1,17 @@
+{
+  "name": "Velora Mobile Workspace",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.vscode-pull-request-github"
+      ],
+      "settings": {
+        "git.autofetch": true,
+        "workbench.startupEditor": "readme",
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+  "remoteUser": "codespace"
+}
