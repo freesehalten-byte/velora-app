@@ -15,6 +15,14 @@ Codespace geoeffnet werden.
 Die einmalige Einrichtung fuer zwei Personen sowie der sichere gemeinsame
 Arbeitsablauf sind in [MOBILE_WORKFLOW.md](MOBILE_WORKFLOW.md) beschrieben.
 
+## Koennen wir gleichzeitig zusammenarbeiten?
+
+Ja. Fuer normale Aufgaben arbeitet ihr sicherer in zwei eigenen Codespaces und
+Branches. Wenn ihr dagegen gleichzeitig dieselbe Datei sehen und bearbeiten
+wollt, startet eine Person im Codespace eine **Live Share**-Sitzung und schickt
+der anderen Person den Einladungslink. Die genauen Handy-Schritte stehen im
+Abschnitt [Live zusammenarbeiten](MOBILE_WORKFLOW.md#4-live-zusammenarbeiten).
+
 > **Wichtig:** Momentan enthaelt das Repository nur die fertige APK und ein ZIP
 > mit derselben APK, aber keinen bearbeitbaren App-Quellcode. Um die App wirklich
 > weiterzuentwickeln, muss das Android-Projekt (zum Beispiel mit `app/`,

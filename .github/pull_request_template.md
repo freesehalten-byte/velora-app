@@ -10,4 +10,5 @@
 
 - [ ] Ich habe keine Passwoerter, API-Schluessel oder Signing-Keys committed.
 - [ ] Ich habe nur Dateien geaendert, die zu dieser Aufgabe gehoeren.
+- [ ] Bei einer Live-Share-Sitzung hat nur eine Person die Aenderungen committed.
 - [ ] Die andere Person kann die Aenderung nachvollziehen und testen.

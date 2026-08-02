@@ -51,7 +51,41 @@ GitHub zeigt danach einen Link zum Erstellen eines Pull Requests. Als Zielbranch
 `work` auswaehlen. Die andere Person prueft den Pull Request und fuehrt ihn
 zusammen. Vor der naechsten Aufgabe wieder mit einem aktuellen `work` beginnen.
 
-## 4. Was noch fuer echte App-Entwicklung fehlt
+## 4. Live zusammenarbeiten
+
+Ja, ihr koennt auch gleichzeitig im selben Codespace arbeiten. Dafuer ist die
+Erweiterung **Live Share** bereits in der Codespace-Konfiguration eingetragen.
+
+### Eine Sitzung starten
+
+1. Eine Person oeffnet ihren Codespace und wartet, bis er vollstaendig gestartet
+   ist.
+2. In der linken Seitenleiste **Live Share** oeffnen oder in der Befehlspalette
+   `Live Share: Start Collaboration Session` auswaehlen.
+3. Bei der ersten Nutzung mit dem GitHub-Konto anmelden.
+4. Den erzeugten Einladungslink privat an den Bruder schicken. Den Link nicht
+   oeffentlich posten: Wer Zugriff auf den Link erhaelt, kann der Sitzung
+   beitreten.
+5. Der Bruder oeffnet den Link auf seinem Handy, meldet sich bei GitHub an und
+   bestaetigt den Beitritt im Browser-Editor.
+
+Beide sehen nun die gleichen Projektdateien und koennen Cursor und Aenderungen
+live verfolgen. Der Besitzer der Sitzung kann die Freigabe jederzeit ueber
+**Live Share: Stop Collaboration Session** beenden.
+
+### Wichtig bei einer Live-Sitzung
+
+- Nur der Gastgeber commitet und pusht die gemeinsam erstellten Aenderungen.
+  Dadurch entstehen keine doppelten oder widerspruechlichen Commits.
+- Terminalzugriff nur freigeben, wenn er wirklich gebraucht wird. Niemals
+  Passwoerter, Tokens oder andere Geheimnisse im geteilten Terminal anzeigen.
+- Live Share ersetzt Git nicht: Nach der Sitzung weiterhin committen, pushen und
+  einen Pull Request erstellen.
+- Falls Live Share im mobilen Browser nicht sauber bedienbar ist, nutzt zwei
+  eigene Codespaces und das Branch-Verfahren aus Abschnitt 3. Das funktioniert
+  auch ohne gleichzeitige Bearbeitung.
+
+## 5. Was noch fuer echte App-Entwicklung fehlt
 
 Die vorhandenen Dateien `Velora (1).apk` und `velora.zip` sind Ausgabedateien.
 Eine APK kann installiert, aber nicht sinnvoll wie ein Android-Projekt
@@ -70,7 +104,7 @@ Sobald der Quellcode vorhanden ist, sollte die Codespace-Konfiguration an das
 tatsaechliche Framework angepasst und ein automatischer Build-Test ergaenzt
 werden.
 
-## 5. Codespace stoppen und Kosten vermeiden
+## 6. Codespace stoppen und Kosten vermeiden
 
 Nach der Arbeit auf GitHub **Codespaces** oeffnen, beim eigenen Codespace das
 Drei-Punkte-Menue waehlen und **Stop codespace** antippen. Nicht mehr benoetigte
