@@ -1,0 +1,44 @@
+name: Aufgabe fuer den KI-Assistenten
+description: Eine klar pruefbare Entwicklungsaufgabe fuer den Assistenten planen
+title: "[Aufgabe]: "
+labels: []
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Was soll nach der Umsetzung funktionieren?
+      placeholder: Beschreibe das gewuenschte Ergebnis.
+    validations:
+      required: true
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Aktueller Stand
+      description: Was passiert momentan und was ist daran falsch oder unvollstaendig?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Abnahmekriterien
+      description: Liste konkrete, pruefbare Bedingungen auf.
+      placeholder: |
+        - [ ] Bedingung 1
+        - [ ] Bedingung 2
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Zusaetzliche Informationen
+      description: Relevante Dateien, Fehlermeldungen oder Hinweise; niemals Geheimnisse eintragen.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sicherheitscheck
+      options:
+        - label: Dieses Issue enthaelt keine Passwoerter, Tokens oder Signing-Keys.
+          required: true

@@ -23,6 +23,15 @@ wollt, startet eine Person im Codespace eine **Live Share**-Sitzung und schickt
 der anderen Person den Einladungslink. Die genauen Handy-Schritte stehen im
 Abschnitt [Live zusammenarbeiten](MOBILE_WORKFLOW.md#4-live-zusammenarbeiten).
 
+## Gemeinsam mit einem KI-Assistenten arbeiten
+
+Ihr koennt auch von unterschiedlichen Orten aus Aufgaben beschreiben und die
+Umsetzung durch einen KI-Assistenten vorbereiten lassen. GitHub bleibt dabei die
+gemeinsame, verbindliche Projektquelle: Aufgabe als Issue erfassen, auf einem
+eigenen Branch umsetzen lassen und den Pull Request durch die andere Person
+pruefen lassen. Der genaue Ablauf steht in
+[AI_WORKFLOW.md](AI_WORKFLOW.md).
+
 > **Wichtig:** Momentan enthaelt das Repository nur die fertige APK und ein ZIP
 > mit derselben APK, aber keinen bearbeitbaren App-Quellcode. Um die App wirklich
 > weiterzuentwickeln, muss das Android-Projekt (zum Beispiel mit `app/`,

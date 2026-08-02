@@ -27,6 +27,10 @@ Jede Person sollte einen eigenen Codespace und einen eigenen Branch benutzen.
 Ein Codespace ist eine persoenliche Entwicklungsumgebung, kein gemeinsam
 gesteuerter Bildschirm.
 
+Wenn ein KI-Assistent die Umsetzung uebernehmen soll, verwendet den Ablauf in
+[AI_WORKFLOW.md](AI_WORKFLOW.md). Damit bleiben Auftraege und Ergebnisse auch
+zwischen zwei Orten und getrennten Chats nachvollziehbar.
+
 ## 3. Pro Aufgabe einen Branch verwenden
 
 Im Terminal des Codespaces:
